@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #1E1E1E;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+.navbar {
+  padding: 10px;
+}
+
+.list {
+  float: right;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  border-radius: 99999px;
+  font-size: 14px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.hero h1 {
+  text-align: center;
+  padding-top: 60px;
+  font-size: 72px;
+  background: #ffffff;
+  background: linear-gradient(to right, #ffffff 0%, #e7f3c6 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero p {
+  text-align: center;
+  color: white;
+  -webkit-text-stroke: #000;
+  font-size: 22px;
+}
+.hero .btn {
+  padding: 16px 32px;
+  border-radius: 99999px;
+  font-size: 16px;
+  background: #ffffff;
+  background: linear-gradient(to right, #ffffff 0%, #e7f3c6 100%);
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+.hero .btn del {
+  font-size: 14px;
+  color: rgba(187, 183, 183, 0.8);
+}
+.hero .dark-btn {
+  background: #000000;
+  background: linear-gradient(to right, #000000 0%, #515151 100%);
+  color: #ffffff;
+}
+.hero .rating {
+  margin-top: 40px;
+}
+.hero .rating span {
+  color: #ffffff;
+  font-weight: 700;
+}
+.hero .rating p {
+  text-align: center;
+  color: rgba(204, 204, 204, 0.8);
+  font-size: 14px;
+  margin-top: 10px;
+}
+.hero .image {
+  margin-top: 50px;
+}
+.hero .image p {
+  text-align: center;
+  color: rgba(204, 204, 204, 0.8);
+  font-size: 14px;
+}
+.hero .image p span {
+  color: #acf3a6;
+  text-decoration: underline;
+}
+.hero .tesmional {
+  margin-top: 80px;
+}
+.hero .tesmional h4 {
+  text-align: center;
+  color: #ccc;
+  font-size: 18px;
+}
+.hero .tesmional .img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+.hero .tesmional .para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .tesmional p {
+  text-align: center;
+  color: #515151;
+  font-size: 14px;
+  width: 25%;
+}
+.hero .works {
+  margin-top: 80px;
+}
+.hero .works h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+.hero .works p {
+  margin-bottom: 40px;
+  font-size: 12px;
+  color: rgba(204, 204, 204, 0.8);
+}
+.hero .works p span {
+  padding: 1px;
+  background-color: #515151;
+}
+.hero .works .img p {
+  margin-top: 50px;
+}
+.hero .works .img .green {
+  background-color: #323f31;
+  color: #acf3a6;
+}
+.hero .urls {
+  margin-top: 80px;
+}
+.hero .urls h3 {
+  font-size: 40px;
+  color: #ccc;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.hero .urls p {
+  font-size: 12px;
+  text-align: center;
+  color: rgba(204, 204, 204, 0.8);
+  margin: 20px 0 60px;
+  line-height: 18px;
+}
+.hero .urls p span {
+  padding: 1px;
+  background-color: #515151;
+}
+
+footer {
+  border-top: 1px solid #515151;
+  padding-top: 50px;
+  max-width: 1280px;
+  padding: 50px 16px 0;
+  margin: 20px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+footer .right {
+  display: flex;
+  gap: 100px;
+  flex-direction: column;
+}
+footer .f-logo p {
+  margin: 10px 0;
+  color: #ccc;
+  font-size: 12px;
+}
+footer .logx {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ccc;
+  font-size: 12px;
+  font-weight: 700;
+}
+footer .social img {
+  cursor: pointer;
+}
+footer .social p {
+  margin: 10px 0;
+  font-size: 12px;
+  color: #ccc;
+}
+footer .left {
+  display: flex;
+  gap: 50px;
+}
+footer .left h4 {
+  margin-bottom: 20px;
+  color: #ccc;
+  font-size: 14px;
+}
+footer .left ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .left ul li {
+  color: #ccc;
+  font-size: 12px;
+}/*# sourceMappingURL=style.css.map */

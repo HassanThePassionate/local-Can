@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Faster UI</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="list">
+        <li><a href="#">Docs</a></li>
+        <li><a href="#">Changelog</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <div class="logo">
+        <img src="assets/Logo.png" alt="logo" />
+      </div>
+      <div class="hero_txt">
+        <h1>
+          Develop apps using <br />
+          Public URLs
+        </h1>
+        <p>...and .local domains with https</p>
+      </div>
+      <div class="btns">
+        <button class="btn">
+          Buy $47 <span><del>$60</del></span>
+        </button>
+        <button class="dark-btn btn">Download Trial</button>
+      </div>
+      <div class="rating">
+        <svg
+          width="17"
+          height="17"
+          viewBox="0 0 17 17"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#clip0_2003_2857)">
+            <mask
+              id="mask0_2003_2857"
+              style="mask-type: luminance"
+              maskUnits="userSpaceOnUse"
+              x="0"
+              y="0"
+              width="17"
+              height="17"
+            >
+              <path d="M0.950195 0.5H16.9502V16.5H0.950195V0.5Z" fill="white" />
+            </mask>
+            <g mask="url(#mask0_2003_2857)">
+              <path
+                d="M16.4502 5.9909H11.0502L9.4272 0.8149C9.38684 0.721925 9.32019 0.642772 9.23544 0.587173C9.1507 0.531574 9.05155 0.501953 8.9502 0.501953C8.84884 0.501953 8.74969 0.531574 8.66495 0.587173C8.5802 0.642772 8.51355 0.721925 8.4732 0.8149L6.8502 5.9909H1.4502C1.34525 5.9909 1.24297 6.02392 1.15784 6.08528C1.07271 6.14664 1.00904 6.23323 0.975854 6.33279C0.942668 6.43234 0.941648 6.53982 0.972939 6.63998C1.00423 6.74015 1.06624 6.82793 1.1502 6.8909L5.4502 10.1219L3.7572 15.3289C3.72501 15.4292 3.72532 15.5371 3.75808 15.6372C3.79084 15.7373 3.85438 15.8245 3.93963 15.8864C4.02489 15.9482 4.1275 15.9816 4.23283 15.9817C4.33816 15.9818 4.44083 15.9486 4.5262 15.8869L8.9502 12.6729L13.3742 15.8869C13.4596 15.9486 13.5622 15.9818 13.6676 15.9817C13.7729 15.9816 13.8755 15.9482 13.9608 15.8864C14.046 15.8245 14.1095 15.7373 14.1423 15.6372C14.1751 15.5371 14.1754 15.4292 14.1432 15.3289L12.4502 10.1209L16.7502 6.8909C16.8341 6.82793 16.8962 6.74015 16.9275 6.63998C16.9587 6.53982 16.9577 6.43234 16.9245 6.33279C16.8914 6.23323 16.8277 6.14664 16.7425 6.08528C16.6574 6.02392 16.5551 5.9909 16.4502 5.9909Z"
+                fill="#FFD953"
+              />
+            </g>
+          </g>
+          <defs>
+            <clipPath id="clip0_2003_2857">
+              <rect
+                width="16"
+                height="16"
+                fill="white"
+                transform="translate(0.450195 0.5)"
+              />
+            </clipPath>
+          </defs>
+        </svg>
+        <svg
+          width="17"
+          height="17"
+          viewBox="0 0 17 17"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#clip0_2003_2857)">
+            <mask
+              id="mask0_2003_2857"
+              style="mask-type: luminance"
+              maskUnits="userSpaceOnUse"
+              x="0"
+              y="0"
+              width="17"
+              height="17"
+            >
+              <path d="M0.950195 0.5H16.9502V16.5H0.950195V0.5Z" fill="white" />
+            </mask>
+            <g mask="url(#mask0_2003_2857)">
+              <path
+                d="M16.4502 5.9909H11.0502L9.4272 0.8149C9.38684 0.721925 9.32019 0.642772 9.23544 0.587173C9.1507 0.531574 9.05155 0.501953 8.9502 0.501953C8.84884 0.501953 8.74969 0.531574 8.66495 0.587173C8.5802 0.642772 8.51355 0.721925 8.4732 0.8149L6.8502 5.9909H1.4502C1.34525 5.9909 1.24297 6.02392 1.15784 6.08528C1.07271 6.14664 1.00904 6.23323 0.975854 6.33279C0.942668 6.43234 0.941648 6.53982 0.972939 6.63998C1.00423 6.74015 1.06624 6.82793 1.1502 6.8909L5.4502 10.1219L3.7572 15.3289C3.72501 15.4292 3.72532 15.5371 3.75808 15.6372C3.79084 15.7373 3.85438 15.8245 3.93963 15.8864C4.02489 15.9482 4.1275 15.9816 4.23283 15.9817C4.33816 15.9818 4.44083 15.9486 4.5262 15.8869L8.9502 12.6729L13.3742 15.8869C13.4596 15.9486 13.5622 15.9818 13.6676 15.9817C13.7729 15.9816 13.8755 15.9482 13.9608 15.8864C14.046 15.8245 14.1095 15.7373 14.1423 15.6372C14.1751 15.5371 14.1754 15.4292 14.1432 15.3289L12.4502 10.1209L16.7502 6.8909C16.8341 6.82793 16.8962 6.74015 16.9275 6.63998C16.9587 6.53982 16.9577 6.43234 16.9245 6.33279C16.8914 6.23323 16.8277 6.14664 16.7425 6.08528C16.6574 6.02392 16.5551 5.9909 16.4502 5.9909Z"
+                fill="#FFD953"
+              />
+            </g>
+          </g>
+          <defs>
+            <clipPath id="clip0_2003_2857">
+              <rect
+                width="16"
+                height="16"
+                fill="white"
+                transform="translate(0.450195 0.5)"
+              />
+            </clipPath>
+          </defs>
+        </svg>
+
+        <svg
+          width="17"
+          height="17"
+          viewBox="0 0 17 17"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#clip0_2003_2857)">
+            <mask
+              id="mask0_2003_2857"
+              style="mask-type: luminance"
+              maskUnits="userSpaceOnUse"
+              x="0"
+              y="0"
+              width="17"
+              height="17"
+            >
+              <path d="M0.950195 0.5H16.9502V16.5H0.950195V0.5Z" fill="white" />
+            </mask>
+            <g mask="url(#mask0_2003_2857)">
+              <path
+                d="M16.4502 5.9909H11.0502L9.4272 0.8149C9.38684 0.721925 9.32019 0.642772 9.23544 0.587173C9.1507 0.531574 9.05155 0.501953 8.9502 0.501953C8.84884 0.501953 8.74969 0.531574 8.66495 0.587173C8.5802 0.642772 8.51355 0.721925 8.4732 0.8149L6.8502 5.9909H1.4502C1.34525 5.9909 1.24297 6.02392 1.15784 6.08528C1.07271 6.14664 1.00904 6.23323 0.975854 6.33279C0.942668 6.43234 0.941648 6.53982 0.972939 6.63998C1.00423 6.74015 1.06624 6.82793 1.1502 6.8909L5.4502 10.1219L3.7572 15.3289C3.72501 15.4292 3.72532 15.5371 3.75808 15.6372C3.79084 15.7373 3.85438 15.8245 3.93963 15.8864C4.02489 15.9482 4.1275 15.9816 4.23283 15.9817C4.33816 15.9818 4.44083 15.9486 4.5262 15.8869L8.9502 12.6729L13.3742 15.8869C13.4596 15.9486 13.5622 15.9818 13.6676 15.9817C13.7729 15.9816 13.8755 15.9482 13.9608 15.8864C14.046 15.8245 14.1095 15.7373 14.1423 15.6372C14.1751 15.5371 14.1754 15.4292 14.1432 15.3289L12.4502 10.1209L16.7502 6.8909C16.8341 6.82793 16.8962 6.74015 16.9275 6.63998C16.9587 6.53982 16.9577 6.43234 16.9245 6.33279C16.8914 6.23323 16.8277 6.14664 16.7425 6.08528C16.6574 6.02392 16.5551 5.9909 16.4502 5.9909Z"
+                fill="#FFD953"
+              />
+            </g>
+          </g>
+          <defs>
+            <clipPath id="clip0_2003_2857">
+              <rect
+                width="16"
+                height="16"
+                fill="white"
+                transform="translate(0.450195 0.5)"
+              />
+            </clipPath>
+          </defs>
+        </svg>
+
+        <svg
+          width="17"
+          height="17"
+          viewBox="0 0 17 17"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#clip0_2003_2857)">
+            <mask
+              id="mask0_2003_2857"
+              style="mask-type: luminance"
+              maskUnits="userSpaceOnUse"
+              x="0"
+              y="0"
+              width="17"
+              height="17"
+            >
+              <path d="M0.950195 0.5H16.9502V16.5H0.950195V0.5Z" fill="white" />
+            </mask>
+            <g mask="url(#mask0_2003_2857)">
+              <path
+                d="M16.4502 5.9909H11.0502L9.4272 0.8149C9.38684 0.721925 9.32019 0.642772 9.23544 0.587173C9.1507 0.531574 9.05155 0.501953 8.9502 0.501953C8.84884 0.501953 8.74969 0.531574 8.66495 0.587173C8.5802 0.642772 8.51355 0.721925 8.4732 0.8149L6.8502 5.9909H1.4502C1.34525 5.9909 1.24297 6.02392 1.15784 6.08528C1.07271 6.14664 1.00904 6.23323 0.975854 6.33279C0.942668 6.43234 0.941648 6.53982 0.972939 6.63998C1.00423 6.74015 1.06624 6.82793 1.1502 6.8909L5.4502 10.1219L3.7572 15.3289C3.72501 15.4292 3.72532 15.5371 3.75808 15.6372C3.79084 15.7373 3.85438 15.8245 3.93963 15.8864C4.02489 15.9482 4.1275 15.9816 4.23283 15.9817C4.33816 15.9818 4.44083 15.9486 4.5262 15.8869L8.9502 12.6729L13.3742 15.8869C13.4596 15.9486 13.5622 15.9818 13.6676 15.9817C13.7729 15.9816 13.8755 15.9482 13.9608 15.8864C14.046 15.8245 14.1095 15.7373 14.1423 15.6372C14.1751 15.5371 14.1754 15.4292 14.1432 15.3289L12.4502 10.1209L16.7502 6.8909C16.8341 6.82793 16.8962 6.74015 16.9275 6.63998C16.9587 6.53982 16.9577 6.43234 16.9245 6.33279C16.8914 6.23323 16.8277 6.14664 16.7425 6.08528C16.6574 6.02392 16.5551 5.9909 16.4502 5.9909Z"
+                fill="#FFD953"
+              />
+            </g>
+          </g>
+          <defs>
+            <clipPath id="clip0_2003_2857">
+              <rect
+                width="16"
+                height="16"
+                fill="white"
+                transform="translate(0.450195 0.5)"
+              />
+            </clipPath>
+          </defs>
+        </svg>
+        <svg
+          width="17"
+          height="17"
+          viewBox="0 0 17 17"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#clip0_2003_2857)">
+            <mask
+              id="mask0_2003_2857"
+              style="mask-type: luminance"
+              maskUnits="userSpaceOnUse"
+              x="0"
+              y="0"
+              width="17"
+              height="17"
+            >
+              <path d="M0.950195 0.5H16.9502V16.5H0.950195V0.5Z" fill="white" />
+            </mask>
+            <g mask="url(#mask0_2003_2857)">
+              <path
+                d="M16.4502 5.9909H11.0502L9.4272 0.8149C9.38684 0.721925 9.32019 0.642772 9.23544 0.587173C9.1507 0.531574 9.05155 0.501953 8.9502 0.501953C8.84884 0.501953 8.74969 0.531574 8.66495 0.587173C8.5802 0.642772 8.51355 0.721925 8.4732 0.8149L6.8502 5.9909H1.4502C1.34525 5.9909 1.24297 6.02392 1.15784 6.08528C1.07271 6.14664 1.00904 6.23323 0.975854 6.33279C0.942668 6.43234 0.941648 6.53982 0.972939 6.63998C1.00423 6.74015 1.06624 6.82793 1.1502 6.8909L5.4502 10.1219L3.7572 15.3289C3.72501 15.4292 3.72532 15.5371 3.75808 15.6372C3.79084 15.7373 3.85438 15.8245 3.93963 15.8864C4.02489 15.9482 4.1275 15.9816 4.23283 15.9817C4.33816 15.9818 4.44083 15.9486 4.5262 15.8869L8.9502 12.6729L13.3742 15.8869C13.4596 15.9486 13.5622 15.9818 13.6676 15.9817C13.7729 15.9816 13.8755 15.9482 13.9608 15.8864C14.046 15.8245 14.1095 15.7373 14.1423 15.6372C14.1751 15.5371 14.1754 15.4292 14.1432 15.3289L12.4502 10.1209L16.7502 6.8909C16.8341 6.82793 16.8962 6.74015 16.9275 6.63998C16.9587 6.53982 16.9577 6.43234 16.9245 6.33279C16.8914 6.23323 16.8277 6.14664 16.7425 6.08528C16.6574 6.02392 16.5551 5.9909 16.4502 5.9909Z"
+                fill="#FFD953"
+              />
+            </g>
+          </g>
+          <defs>
+            <clipPath id="clip0_2003_2857">
+              <rect
+                width="16"
+                height="16"
+                fill="white"
+                transform="translate(0.450195 0.5)"
+              />
+            </clipPath>
+          </defs>
+        </svg>
+        <span>4.8</span>
+        <p>From in-app review form</p>
+      </div>
+      <div class="image">
+        <img src="assets/1.png" alt="hero" />
+        <p>
+          See why LocalCan is <span>#1 Ngrok alternative</span> for development
+        </p>
+      </div>
+      <div class="tesmional">
+        <h4>Trusted by 1000+ developers</h4>
+        <div class="img">
+          <img src="assets/2.png" alt="mans" />
+        </div>
+        <div class="para">
+          <p>
+            “Before LocalCan, we would occasionally waste a lot of time
+            troubleshooting virtual hosts or config files, which could behave in
+            very odd and unexpected ways. Thanks to LocalCan, it has become as
+            simple as flicking a switch, and we are ready to go in seconds,
+            saving us a lot of potential headaches. When reaching out for
+            support, we had
+            <br />
+            immediate response and resolution within a day.” <br />
+            — Yves from Datatim
+          </p>
+        </div>
+      </div>
+      <div class="works">
+        <h2>How it works</h2>
+        <p>
+          Publish a domain to expose <span>localhost</span> project <br />
+          to a local network or the whole internet!
+        </p>
+        <div class="img">
+          <img src="assets/3.png" alt="" />
+          <p>
+            Publish a domain e.g.
+            <span class="green">www.myapp.local</span> from your MacBook, and it
+            <br />
+            will be visible to all devices in your local network ⟶ pointing to
+            your <br />
+            MacBook
+          </p>
+        </div>
+      </div>
+      <div class="urls">
+        <h3>Persistent Public URLs</h3>
+        <p>
+          Public URLs securely expose your <span>localhost</span> projects to
+          the <br />
+          internet. It's an easy way to share them with your clients <br />
+          and stakeholders, test webhooks, OAuth integrations <br />
+          and more. Use <span>localcan.dev</span> or your own custom domain.
+        </p>
+        <img src="assets/4.png" alt="img" />
+      </div>
+    </div>
+    <footer>
+      <div class="right">
+        <div class="f-logo">
+          <span class="logx">
+            <img src="assets/f-logo.png" alt="" />
+            LocalCan™
+          </span>
+          <p>
+            Develop your apps with .local domains <br />
+            and persistent Public URLs
+          </p>
+        </div>
+        <div class="social">
+          <img src="assets/X.png" alt="twitter" />
+          <img src="assets/g.png" alt="github" />
+          <img src="assets/y.png" alt="youtube" />
+          <p>© 2024 LocalCan™. All rights reserved.</p>
+        </div>
+      </div>
+      <div class="left">
+        <div class="iteam">
+          <h4>App</h4>
+          <ul>
+            <li>Download</li>
+            <li>Changelog</li>
+          </ul>
+        </div>
+        <div class="iteam">
+          <h4>Resources</h4>
+          <ul>
+            <li>Ngrok alternative</li>
+            <li>Local domains</li>
+            <li>Free webhook tester</li>
+            <li>Become an affiliate</li>
+            <li>EULA</li>
+          </ul>
+        </div>
+        <div class="iteam">
+          <h4>Documentation</h4>
+          <ul>
+            <li>Public URLs</li>
+            <li>Custom domains</li>
+            <li>Local domains</li>
+            <li>Inspect traffic</li>
+            <li>Reverse proxy</li>
+            <li>Troubleshooting</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
